@@ -1,4 +1,4 @@
-# D/Raylib Project Template
+# D/Raylib project template
 This is a D/Raylib project template. All you need is `dub.json` file; copy-paste it into your project.
 
 ## Requirements
