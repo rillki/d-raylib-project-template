@@ -1,6 +1,8 @@
 # D/Raylib project template
 This is a D/Raylib project template. All you need is `dub.json` file; copy-paste it into your project.
 
+<img src="img/rocket-d.jpg">
+
 ## Requirements
 * [D](https://dlang.org/download) compiler
 * [DUB](https://dub.pm/) package manager
