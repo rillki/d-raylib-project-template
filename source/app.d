@@ -2,23 +2,29 @@ module app;
 
 import raylib;
 
-immutable width = 640;
-immutable height = 640;
+enum fps = 60;
+enum width = 640;
+enum height = 640;
 
 void main() {
-	InitWindow(width, height, "D/Raylib project");
+    InitWindow(width, height, "D/Raylib project");
+    SetTargetFPS(fps);
 
-	while(!WindowShouldClose()) {
-		// process events
-		// update game logic
+    // game loop
+    while(!WindowShouldClose()) {
+        // process events
+        // update
+        // render
+        BeginDrawing();
+        ClearBackground(Colors.WHITE);
+        
+        // draw stuff
+        
+        EndDrawing();
+    }
 
-		// render
-		BeginDrawing();
-		ClearBackground(Colors.WHITE);
-			// draw stuff
-			// ...
-		EndDrawing();
-	}
-
-	CloseWindow();
+    CloseWindow();
 }
+
+
+
