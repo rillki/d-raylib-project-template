@@ -1,6 +1,8 @@
 # D/Raylib project template
 This is a D/Raylib project template. All you need is `dub.json` file; copy-paste it into your project.
 
+<img src="img/rocket-d.jpg">
+
 ## Requirements
 * [D](https://dlang.org/download) compiler
 * [DUB](https://dub.pm/) package manager
@@ -10,4 +12,4 @@ This is a D/Raylib project template. All you need is `dub.json` file; copy-paste
 Download precompiled binaries and put `raylib.dll` and `raylibdll.lib` into your project's folder, into the same directory as your `dub.json` file.
 
 ## Youtube video
-Alternatively, watch a [video][soon] explaining how to set up D/Raylib on OSX, Linux and Windows.
+Alternatively, watch a [video](https://www.youtube.com/watch?v=yIVHdaPTtcE) explaining how to set up D/Raylib on OSX, Linux and Windows.
