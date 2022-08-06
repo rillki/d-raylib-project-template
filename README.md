@@ -15,3 +15,6 @@ Download precompiled binaries and put `raylib.dll` and `raylibdll.lib` into your
 
 ## Youtube video
 Alternatively, watch a [video](https://www.youtube.com/watch?v=yIVHdaPTtcE) explaining how to set up D/Raylib on OSX, Linux and Windows.
+
+## LICENSE
+The license used is MIT.
