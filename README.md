@@ -10,11 +10,15 @@ This is a D/Raylib project template. All you need is `dub.json` file; copy-paste
 
 I highly recommend using the LDC compiler. It does the best optimizations. The DMD compiler, on the other hand, has the newest features.
 
-### For Windows users
-Download precompiled binaries and put `raylib.dll` and `raylibdll.lib` into your project's folder, into the same directory as your `dub.json` file.
+### Install raylib using DUB
+```
+dub add raylib-d
+dub fetch
+dub run raylib-d:install
+```
 
 ## Youtube video
-Alternatively, watch a [video](https://www.youtube.com/watch?v=yIVHdaPTtcE) explaining how to set up D/Raylib on OSX, Linux and Windows.
+Alternatively, watch my [video](https://www.youtube.com/watch?v=yIVHdaPTtcE) explaining how to set up D/Raylib on OSX, Linux and Windows.
 
 ## LICENSE
 The license used is MIT.
